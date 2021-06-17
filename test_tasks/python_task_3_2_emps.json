@@ -1,0 +1,52 @@
+{
+	"result": [
+		{
+			"@rid": "#12:0",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "DUMMY",
+			"EXTRA_FIELD_2": "extra 2",
+			"CREATED": "2020-11-18 16:43:05"
+		},
+		{
+			"@rid": "#12:2",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 2",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEPARTMENT": "Department 1",
+			"EXTRA_FIELD_2": "extra 2",
+			"COMMENT": "source 2"
+		},
+		{
+			"@rid": "#12:3",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 3",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEPARTMENT": "Department 1",
+			"EXTRA_FIELD_2": "extra 2",
+			"COMMENT": "source 2"
+		},
+		{
+			"@rid": "#12:4",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 4",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEPARTMENT": "Department 1",
+			"EXTRA_FIELD_2": "extra 2",
+			"COMMENT": "source 2"
+		},
+		{
+			"@rid": "#12:6",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 6",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEPARTMENT": "Department 1",
+			"EXTRA_FIELD_2": "extra 2",
+			"COMMENT": "source 2"
+		}
+	]
+}

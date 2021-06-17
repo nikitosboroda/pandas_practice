@@ -1,0 +1,73 @@
+{
+	"result": [
+		{
+			"@rid": "#13:2",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 2",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEP": "Department 1",
+			"COMMENT": "source 3"
+		},
+		{
+			"@rid": "#13:4",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 4",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEP": "Department 1",
+			"EXTRA_FIELD_3": "extra 3",
+			"COMMENT": "source 3"
+		},
+		{
+			"@rid": "#13:6",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 6",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEP": "Department 1",
+			"EXTRA_FIELD_3": "extra 3",
+			"COMMENT": "source 3"
+		},
+		{
+			"@rid": "#13:7",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 6",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEP": "Department 1",
+			"EXTRA_FIELD_3": "extra 3",
+			"COMMENT": "source 3"
+		},
+		{
+			"@rid": "#13:11",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 8",
+			"CREATED": "2020-11-19 11:28:08",
+			"DEP": "Department 1",
+			"EXTRA_FIELD_3": "extra 3",
+			"COMMENT": "source 3"
+		},
+		{
+			"@rid": "#13:12",
+			"@version": 2,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 8",
+			"CREATED": "2020-11-19 12:28:08",
+			"DEP": "Department 2",
+			"EXTRA_FIELD_3": "extra 3",
+			"COMMENT": "source 3"
+		},
+		{
+			"@rid": "#13:13",
+			"@version": 3,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 8",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEP": "Department 1",
+			"EXTRA_FIELD_3": "extra 3",
+			"COMMENT": "source 3"
+		}
+	]
+}

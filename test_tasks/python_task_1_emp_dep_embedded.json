@@ -1,0 +1,91 @@
+{
+	"result": [
+		{
+			"@rid": "#12:0",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "DummyEmoployee",
+			"CREATED": "2020-11-18 16:43:05"
+		},
+		{
+			"@rid": "#12:1",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 1",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEPARTMENT": {
+				"ID": "1",
+				"NAME": "Dpt 1",
+				"SYNONYMS": [
+					"DPT1"
+				]
+			}
+		},
+		{
+			"@rid": "#12:3",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 3",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEPARTMENT": {
+				"ID": "1",
+				"NAME": "Department 1",
+				"SYNONYMS": [
+					"DPT1",
+					"SALES",
+					"SALES DEPARTMET"
+				]
+			}
+		},
+		{
+			"@rid": "#12:2",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 2",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEPARTMENT": {
+				"ID": "1",
+				"NAME": "Department !",
+				"SYNONYMS": [
+					"DPT1",
+					"SLS"
+				]
+			}
+		},
+		{
+			"@rid": "#12:4",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 4",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT": {
+				"ID": "2",
+				"NAME": "Department @",
+				"SYNONYMS": []
+			}
+		},
+		{
+			"@rid": "#12:5",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 5",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT": {
+				"ID": "2",
+				"NAME": "Department 2",
+				"SYNONYMS": []
+			}
+		},
+		{
+			"@rid": "#12:6",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 6",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT": {
+				"ID": "3",
+				"NAME": "Department 3"
+			}
+		}
+	]
+}

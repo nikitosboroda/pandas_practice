@@ -1,0 +1,140 @@
+{
+	"result": [
+		{
+			"@rid": "#13:1",
+			"@version": 1,
+			"@class": "DEPARTMENT",
+			"NAME": "Department 1",
+			"SUB_DEPARTMENT": [
+				{
+					"NAME": "A",
+					"DESCRIPTION": "A1 desc"
+				},
+				{
+					"NAME": "B",
+					"DESCRIPTION": "B1 desc"
+				},
+				{
+					"NAME": "C1",
+					"DESCRIPTION": "C11 desc"
+				},
+				{
+					"NAME": "D",
+					"DESCRIPTION": "D1 desc"
+				},
+				{
+					"NAME": "E",
+					"DESCRIPTION": "E1 desc"
+				}
+			],
+			"COMMENT": "dep 1 comment"
+		},
+		{
+			"@rid": "#13:2",
+			"@version": 1,
+			"@class": "DEPARTMENT",
+			"NAME": "Department 2",
+			"SUB_DEPARTMENT": [
+				{
+					"NAME": "D",
+					"DESCRIPTION": "D2 desc"
+				},
+				{
+					"NAME": "A",
+					"DESCRIPTION": "A2 desc"
+				},
+				{
+					"NAME": "B",
+					"DESCRIPTION": "B2 desc"
+				},
+				{
+					"NAME": "C1",
+					"DESCRIPTION": "C21 desc"
+				},
+				{
+					"NAME": "C2",
+					"DESCRIPTION": "C22 desc"
+				},
+				{
+					"NAME": "C3",
+					"DESCRIPTION": "C23 desc"
+				},
+				{
+					"NAME": "E",
+					"DESCRIPTION": "E2 desc"
+				}
+			],
+			"COMMENT": "dep 2 comment"
+		},
+		{
+			"@rid": "#13:3",
+			"@version": 1,
+			"@class": "DEPARTMENT",
+			"NAME": "Department 3",
+			"SUB_DEPARTMENT": [
+				{
+					"NAME": "C2",
+					"DESCRIPTION": "C32 desc"
+				},
+				{
+					"NAME": "B",
+					"DESCRIPTION": "B3 desc"
+				},
+				{
+					"NAME": "C1",
+					"DESCRIPTION": "C31 desc"
+				},
+				{
+					"NAME": "D",
+					"DESCRIPTION": "D desc"
+				},
+				{
+					"NAME": "A",
+					"DESCRIPTION": "A3 desc"
+				}
+			],
+			"COMMENT": "dep 3 comment"
+		},
+		{
+			"@rid": "#13:4",
+			"@version": 1,
+			"@class": "DEPARTMENT",
+			"NAME": "Department 4",
+			"SUB_DEPARTMENT": [
+				{
+					"NAME": "D",
+					"DESCRIPTION": "D4 desc"
+				},
+				{
+					"NAME": "A",
+					"DESCRIPTION": "A4 desc"
+				},
+				{
+					"NAME": "C1",
+					"DESCRIPTION": "C41 desc"
+				},
+				{
+					"NAME": "C7",
+					"DESCRIPTION": "C47 desc"
+				},
+				{
+					"NAME": "C2",
+					"DESCRIPTION": "C42 desc"
+				},
+				{
+					"NAME": "C3",
+					"DESCRIPTION": "C43 desc"
+				},
+				{
+					"NAME": "E",
+					"DESCRIPTION": "E4 desc"
+				},
+				{
+					"NAME": "C5",
+					"DESCRIPTION": "C45 desc"
+				}
+			],
+			"COMMENT": "dep 4 comment"
+		}
+	]
+}

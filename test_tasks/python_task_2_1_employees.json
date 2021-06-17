@@ -1,0 +1,193 @@
+{
+	"result": [
+		{
+			"@rid": "#12:0",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "DummyEmployee",
+			"CREATED": "2020-11-18 16:43:05"
+		},
+		{
+			"@rid": "#12:1",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 1",
+			"CREATED": "2020-11-19 13:28:08",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": "#13:2",
+			"DEPARTMENT_3": "#13:3",
+			"COMMENT": "Normal links"
+		},
+		{
+			"@rid": "#12:2",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 2",
+			"CREATED": "2020-11-20 13:11:48",
+			"DEPARTMENT_1": {
+				"NAME": "Department 1",
+				"COMMENT": "dep 1 comment"
+			},
+			"DEPARTMENT_2": {
+				"NAME": "Department 2",
+				"COMMENT": "dep 2 comment"
+			},
+			"DEPARTMENT_3": {
+				"NAME": "Department 3",
+				"COMMENT": "dep 3 comment"
+			},
+			"COMMENT": "Normal embedded objects"
+		},
+		{
+			"@rid": "#12:3",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 3",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": {
+				"NAME": "Department 2",
+				"COMMENT": "dep 2 comment"
+			},
+			"DEPARTMENT_3": "#13:3",
+			"COMMENT": "Normal mixed links and embedded objects"
+		},
+		{
+			"@rid": "#12:4",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 4",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": "abc",
+			"DEPARTMENT_3": "#13:3",
+			"COMMENT": "Bad - not-a-link-string: 1 of 3 links"
+		},
+		{
+			"@rid": "#12:5",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 5",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "abc",
+			"DEPARTMENT_2": "def",
+			"DEPARTMENT_3": "ghi",
+			"COMMENT": "Bad - not-a-link-string: 3 of 3 links"
+		},
+		{
+			"@rid": "#12:6",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 6",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": "",
+			"DEPARTMENT_3": "#13:3",
+			"COMMENT": "Bad - not-a-link-EMPTY_STRING: 1 of 3 links"
+		},
+		{
+			"@rid": "#12:7",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 7",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": null,
+			"DEPARTMENT_3": "#13:3",
+			"COMMENT": "Bad - not-a-link-NULL: 1 of 3 links"
+		},
+		{
+			"@rid": "#12:8",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 8",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "",
+			"DEPARTMENT_2": "",
+			"DEPARTMENT_3": "",
+			"COMMENT": "Bad - not-a-link-EMPTY_STRING: 3 of 3 links"
+		},
+		{
+			"@rid": "#12:9",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 9",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": null,
+			"DEPARTMENT_2": null,
+			"DEPARTMENT_3": null,
+			"COMMENT": "Bad - not-a-link-NULL: 3 of 3 links"
+		},
+		{
+			"@rid": "#12:10",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 10",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": "#13:222",
+			"DEPARTMENT_3": "#13:3",
+			"COMMENT": "Bad - link-TO_NOT_EXISTING_DEP: 1 of 3 links"
+		},
+		{
+			"@rid": "#12:11",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 11",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": {
+				"COMMENT": "dep 2 comment"
+			},
+			"DEPARTMENT_3": "#13:3",
+			"COMMENT": "Bad - embedded_object_without_ID(name): 1 of 3 links"
+		},
+		{
+			"@rid": "#12:12",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 12",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": {
+				"NAME": "Department 222",
+				"COMMENT": "dep 222 comment"
+			},
+			"DEPARTMENT_3": "#13:3",
+			"COMMENT": "Bad - embedded_object_wit_nonexistent_ID(name): 1 of 3 links"
+		},
+		{
+			"@rid": "#12:13",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 13",
+			"CREATED": "2020-11-21 15:38:01",
+			"DEPARTMENT_1": "#13:1",
+			"DEPARTMENT_2": {
+				"NAME": "Department 2",
+				"COMMENT": "dep 2 comment"
+			},
+			"COMMENT": "Bad - missing DEPARTMENT_3 attribute"
+		},
+		{
+			"@rid": "#12:14",
+			"@version": 1,
+			"@class": "EMPLOYEE",
+			"NAME": "Emp 14",
+			"CREATED": "2020-11-20 13:11:48",
+			"DEPARTMENT_1": {
+				"NAME": "Department 3",
+				"COMMENT": "dep 3 comment"
+			},
+			"DEPARTMENT_2": {
+				"NAME": "Department 2",
+				"COMMENT": "dep 2 comment"
+			},
+			"DEPARTMENT_3": {
+				"NAME": "Department 1",
+				"COMMENT": "dep 1 comment"
+			},
+			"COMMENT": "Normal embedded objects"
+		}
+	]
+}

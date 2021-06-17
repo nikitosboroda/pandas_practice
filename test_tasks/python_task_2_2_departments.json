@@ -1,0 +1,25 @@
+{
+	"result": [
+		{
+			"@rid": "#13:1",
+			"@version": 1,
+			"@class": "DEPARTMENT",
+			"NAME": "Department 1",
+			"COMMENT": "dep 1 comment"
+		},
+		{
+			"@rid": "#13:2",
+			"@version": 1,
+			"@class": "DEPARTMENT",
+			"NAME": "Department 2",
+			"COMMENT": "dep 2 comment"
+		},
+		{
+			"@rid": "#13:3",
+			"@version": 1,
+			"@class": "DEPARTMENT",
+			"NAME": "Department 3",
+			"COMMENT": "dep 3 comment"
+		}
+	]
+}

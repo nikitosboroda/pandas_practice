@@ -1,0 +1,19 @@
+version: '3.1'
+
+services:
+  pg_db:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=select
+      - POSTGRES_USER=select
+      - POSTGRES_DB=select
+    volumes:
+      - pg_project:/var/lib/postgresql/data
+      - ./db_scripts:/docker-entrypoint-initdb.d
+    ports:
+      - ${POSTGRES_PORT:-5432}:5432
+
+
+volumes:
+  pg_project:
